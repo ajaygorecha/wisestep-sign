@@ -1,0 +1,187 @@
+main{
+    min-height: 100vh;
+}
+
+main .input-wrapper{
+    text-align: center;
+}
+
+main .input-wrapper .brand img{
+    max-width: 152px;
+    margin-bottom: 40px;
+}
+main .input-wrapper .page-heading{
+    margin-bottom: 30px;
+}
+main .input-wrapper .page-heading h2{
+    font-size: 24px;
+    color: #11151C;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+main .input-wrapper .or-option{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .input-wrapper .or-option p{
+    font-size: 12px;
+    color: #A9ADC6;
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+main .input-wrapper .or-option p:before{
+    margin: 0 auto;
+    position: absolute;
+    width: 170px;
+    bottom: 10px;
+    content: '';
+    height: 1px;
+    background-color: #EAEAF1;
+    left: 0;
+}
+main .input-wrapper .or-option p:after{
+    margin: 0 auto;
+    position: absolute;
+    width: 170px;
+    bottom: 10px;
+    content: '';
+    height: 1px;
+    background-color: #EAEAF1;
+    right: 0;
+}
+
+main .input-wrapper .signin-option button{
+    border: 1px solid #CED0DF;
+    background: transparent;
+    border-radius: 4px;
+    padding: 3px 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #11151C;
+}
+main .input-wrapper .inputs{
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+main .input-wrapper .inputs input{
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid #EAEAF1;
+}
+
+main .input-wrapper .inputs input::placeholder{
+    color: #A0A4C0;
+    font-size: 14px;
+}
+
+main .input-wrapper .inputs mat-form-field{
+    width: 100%;
+    margin-bottom: 20px;
+}
+main .input-wrapper .inputs mat-form-field label{
+    font-size: 14px;
+    color: #11151C;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main .input-wrapper .form-action{
+    margin-top: 22px;
+}
+
+main .input-wrapper .form-action button{
+    width: 100%;
+    background-color: #00B4D8;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 10px;
+}
+
+main .input-wrapper .forgot-password a{
+    color: #00B4D8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main .input-wrapper .other-option{
+    margin-top: 24px;
+}
+main .input-wrapper .other-option p{
+    color: #000;
+    font-size: 16px;
+}
+main .input-wrapper .other-option a{
+    color: #00B4D8;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main .input-wrapper .signin-option button img{
+    width: 24px;
+}
+
+main .testimonials{
+    background: url('src/assets/background.svg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .testimonials .box{
+    background: #03045ECC;
+    padding: 100px;
+    border-radius: 16px;
+    border: 1px solid #023E8A;
+    border-width: 1px;
+    border-style: solid;
+    /* border-image: linear-gradient( to bottom, #023E8A, rgba(0, 0, 0, 0)) 1 1%; */
+}
+
+main .testimonials .box .recommendation{
+    color: #fff;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+main .testimonials .box .client{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+main .testimonials .box .client-role{
+    color: #0077B6;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+main .testimonials .box .icon{
+    width: 32px;
+}
+
+@media (min-width: 1170px){
+    main .testimonials{
+        padding: 80px;
+    }
+
+    main .testimonials .box{
+        padding: 80px;
+    }
+}
